@@ -6,11 +6,16 @@ import GithubIcon from "./github-icon";
 export default function Header() {
   return (
     <header className="relative mx-auto mt-5 flex w-full items-center justify-center px-2 pb-7 sm:px-4">
-      <Link href="/" className="absolute flex items-center gap-2">
-        <Image alt="header text" src={logo} className="h-5 w-5" />
-        <h1 className="text-xl tracking-tight">
-          <span className="text-blue-600">Llama</span>Coder
-        </h1>
+      <Link href="/" className="absolute flex flex-col items-center">
+        <div className="flex items-center gap-2">
+          <Image alt="header text" src={logo} className="h-5 w-5" />
+          <h1 className="text-xl tracking-tight">
+            <span className="text-blue-600">Llama</span>Coder
+          </h1>
+        </div>
+        <div className="mt-1">
+          <span className="text-sm text-gray-600">React Engine</span>
+        </div>
       </Link>
       <a
         href="https://github.com/nutlope/llamacoder"
