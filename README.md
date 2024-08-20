@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  An open source Claude Artifacts – generate small React apps with one prompt. Powered by Llama 3 405B & Together.ai.
+  An open source Claude Artifacts – generate's small React apps with one prompt. Powered by Llama 3 405B & Together.ai.
 </p>
 
 ## React Engine
